@@ -57,8 +57,7 @@ class Calculation
 
 	public function get_area()
 	{
-		//return round($this->latSide * $this->longSide, 2);
-		return round($this->longSide, 2);
+		return round($this->latSide * $this->longSide, 2);
 	}
 	
 	public function get_cost()
@@ -112,7 +111,7 @@ class Calculation
 		$long -= 4 * $arrJSON['kapu']['size'];
 		$cost += 4 * $arrJSON['kapu']['cost'];
 		
-		// Drót + oszlop
+		// DrÃ³t + oszlop
 		$drot_oszlop =  $arrJSON['drot']['size'] + $arrJSON['oszlop']['size'];
 		$in = ceil($long / $drot_oszlop);
 		
