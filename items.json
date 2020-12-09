@@ -1,0 +1,18 @@
+{
+    "sarok":{
+        "size": 0.5,
+        "cost": 400
+    },
+    "oszlop":{
+        "size": 0.2,
+        "cost": 100
+    },
+    "drot":{
+        "size": 2,
+        "cost": 50
+    },
+    "kapu":{
+        "size": 5,
+        "cost": 1000
+    }
+}
